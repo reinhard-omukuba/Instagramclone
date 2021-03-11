@@ -1,0 +1,194 @@
+/* Table of contents */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/* Register & Login */
+.regSection{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.leftSide{
+    width: 50%;
+    height: 100%;
+    background-image: url(../images/image1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.leftSide-login{
+
+    width: 50%;
+    height: 100%;
+    background-image: url(../images/login-bg.jpeg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.rightSide{
+    background-color: #f7f7f7;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.butnSignUp{
+    background-color: tomato;
+    color: white;
+    border: 1px tomato solid;
+    padding: 15px 80px 15px 80px;
+    border-radius: 5px;
+    width: 450px;
+    cursor: pointer;
+
+}
+
+
+.logoMain{
+    height: 130px;
+    margin-bottom: 100px;
+}
+
+.butnSignUp:hover{
+    border: 1px tomato solid;
+    background-color: transparent;
+    color: tomato;
+}
+
+.rightSide input{
+    padding: 10px 20px 10px 15px;
+    width: 400px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px gray solid;
+}
+
+.rightSide a{
+    margin-top: 50px;
+    color: royalblue;
+}
+
+
+/* My Account */
+
+.navBar{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+
+.logoContainer{
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.logoContainer img{
+    height: 30px;
+}
+
+.logoContainer h1{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.logo2{
+    margin-top: 10px;
+}
+
+.navBar input{
+    height: 25px;
+    border: 1px rgb(196, 195, 195) solid;
+    border-radius: 3px;
+    width: 250px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.iconsContainer{
+    font-size: 20px;
+    
+}
+
+.theicons{
+    margin-left: 20px;
+}
+
+/* Acount Info section */
+
+.profileSection{
+    display: flex;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding-left: 100px;
+    padding-top: 40px;
+}
+
+.roundedStatus{
+    height: 130px;
+    width: 130px;
+    border: 3px red solid;
+    border-radius: 50%;
+}
+
+.roundedProfilePic{
+    height: 123px;
+    width: 123px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/image1.jpg);
+    margin-top: 3.45px;
+    margin-left: 3px;
+}
+
+.infoSection{
+    margin-left: 100px;
+   
+}
+
+.infoTop{
+    display: flex;
+    align-items: center;
+
+}
+
+.infoTop p{
+    font-size: 35px;
+    font-weight: lighter;
+    margin-right: 30px;
+}
+
+
+.infoTop a{
+    border: gray 1px solid;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 30px;
+    margin-right: 20px;
+   height: 20px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+
+}
+
+.infoTop span{
+    font-size: 30px;
+}
