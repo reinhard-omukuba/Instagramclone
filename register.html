@@ -18,18 +18,38 @@
         <div class="rightSide">
 
             <img src="images/instagram_PNG12.png" class="logoMain" alt="">
-            <input type="text" name="" id="" placeholder="Enter Your Name">
-            <input type="number" placeholder="enter your Phone number" name="" id="">
-            <input type="email" placeholder="Enter your Email Address">
-            <input type="password" placeholder="Enter your Password">
+            <input type="text" name="" id="userName" placeholder="Enter Your Name">
+            <input type="number" placeholder="enter your Phone number" name="" id="phoneNmber">
+            
+            <input type="email" id="email" placeholder="Enter your Email Address">
+            <input type="password" id="password" placeholder="Enter your Password">
 
-            <button class="butnSignUp">Sign Up</button>
+            <button id="butnSignUp" class="butnSignUp">Sign Up</button>
 
             <a href="login.html">Have an account? Sign In</a>
 
         </div>
 
     </section>
+
+
+
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-analytics.js"></script>
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-auth.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-firestore.js"></script>
+
+
+    <script src="js/firebase.js"></script>
+    <script src="js/register.js"></script>
 
     
 </body>
