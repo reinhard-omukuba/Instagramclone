@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload a photo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://use.fontawesome.com/e433ed49fd.js"></script>
+</head>
+<body>
+
+    <div class="navBar">
+
+        <div class="logoContainer">
+            <img src="images/logo1.svg" class="logo1" alt="">
+            <h1>|</h1>
+            <img src="images/logo2.png" class="logo2" alt="">
+        </div>
+
+        <input type="text"  placeholder="Search">
+
+        <div class="iconsContainer">
+            <a href="index.html">
+                <i class="fa fa-home theicons" aria-hidden="true"></i>
+            </a>
+            <a href="profile.html">
+                <i class="fa fa-user theicons" aria-hidden="true"></i>
+            </a>
+            <a href="upload.html">
+                <i class="fa fa-plus-square theicons" aria-hidden="true"></i>
+            </a>
+        </div>
+
+    </div>
+    <hr class="theline">
+
+
+   <section class="uploadSection">
+       <img src="images/placeholder.jpg" class="imgPlaceholder" alt="">
+
+       <input type="textarea" name="" class="caption" id="caption">
+
+       <button class="btnPost" id="btnPost">Post</button>
+   </section>
+    
+
+
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+    https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-analytics.js"></script>
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-firestore.js"></script>
+
+
+    <script src="js/firebase.js"></script>
+
+   <script src="js/upload-photo.js"></script>
+</body>
+</html>

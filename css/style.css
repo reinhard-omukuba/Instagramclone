@@ -3,6 +3,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: sans-serif;
 }
 
 
@@ -195,3 +196,108 @@
 
 
 
+.uploadSection{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+.imgPlaceholder{
+    width: 60%;
+}
+
+
+.caption{
+    width: 60%;
+    margin-top: 20px;
+    padding-top: 50px;
+}
+
+.btnPost{
+
+    margin-top: 20px;
+    padding: 15px 70px;
+    background-color: tomato;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* hme */
+
+.topBar{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.thePost{
+    width: 600px;
+    border: 1px solid rgb(219, 219, 219);
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.postImage{
+    width: 100%;
+}
+
+.profileIm{
+    height: 50px;
+    margin-right: 20px;
+}
+
+.topProfile{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#posts{
+    margin-bottom: 30px;
+}
+
+
+.rightPanel{
+    position: fixed;
+    height: 400px;
+    width: 300px;
+    background-color: rgba(128, 128, 128, 0.151);
+    top: 80px;
+    right: 0;
+}
+
+
+.userProfile1{
+    height: 50px;
+    margin-right: 10px;
+}
+
+.leftPalenTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.leftTop1{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.leftPanel2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    font-size: 14px;
+}

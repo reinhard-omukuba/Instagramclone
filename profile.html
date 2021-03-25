@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Profile</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="https://use.fontawesome.com/e433ed49fd.js"></script>
 </head>
@@ -21,10 +21,15 @@
         <input type="text"  placeholder="Search">
 
         <div class="iconsContainer">
-            <i class="fa fa-home theicons" aria-hidden="true"></i>
-            <i class="fa fa-paper-plane theicons" aria-hidden="true"></i>
-            <i class="fa fa-heart theicons" aria-hidden="true"></i>
-
+            <a href="index.html">
+                <i class="fa fa-home theicons" aria-hidden="true"></i>
+            </a>
+            <a href="profile.html">
+                <i class="fa fa-user theicons" aria-hidden="true"></i>
+            </a>
+            <a href="upload.html">
+                <i class="fa fa-plus-square theicons" aria-hidden="true"></i>
+            </a>
         </div>
 
     </div>
@@ -45,7 +50,7 @@
         <div class="infoSection">
 
             <div class="infoTop">
-                <p>michael.raphel</p>
+                <p id="userName">michael.raphel</p>
                 <a href="" id="signOut">Sign out</a>
                 <span>
                     <i class="fa fa-cog" aria-hidden="true"></i>
@@ -67,6 +72,7 @@
     
     
         <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-firestore.js"></script>
     
 
         <script src="js/firebase.js"></script>
