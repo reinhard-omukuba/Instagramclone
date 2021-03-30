@@ -3,6 +3,41 @@ firebase.auth().onAuthStateChanged(function(user) {
       // User is signed in.
       console.log(user.uid)
 
+
+
+
+      firebase.firestore().collection("users").get().then((querySnapshot) => {
+
+        var content = '';
+
+        querySnapshot.forEach((doc) => {
+
+          var theUserName = doc.data().nameValue;
+
+
+         content +=  '<img src="images/suhring_rounded.png" class="recommendedProfile" alt="">'
+
+         content +=   '<div class="centreFollow">'
+         content +=     '<div>'
+         content +=         '<p>' + theUserName +'</p>'
+         content +=         '<p>Suggested for you</p>'
+         content +=     '</div>'
+              
+         content +=      '<p id="followBtn">Follow</p>'
+         content +=  '</div>'
+
+
+
+
+
+        });
+
+        $('#latestUsers').append(content);
+
+      });
+
+
+
       //pulling data from database
       firebase.firestore().collection("posts").get().then((querySnapshot) => {
 

@@ -23,12 +23,13 @@ document.getElementById("butnSignUp").onclick = function(){
                 userId: user.uid
 
             }).then((docRef) => {
-
+              
+              window.location.href = "profile.html";
                 
                   
             });
       
-            window.location.href = "profile.html";
+            
       
     })
     .catch((error) => {
